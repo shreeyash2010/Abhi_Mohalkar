@@ -1,6 +1,4 @@
-import { Analytics } from "@vercel/analytics/next"
-document.addEventListener("DOMContentLoaded", function() {
-  
+
 document.addEventListener("DOMContentLoaded", function() {
   const contactLink = document.getElementById("contactLink");
   const contactSection = document.getElementById("contactSection");
@@ -60,6 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
+
 
 
 
